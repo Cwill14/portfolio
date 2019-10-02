@@ -1,0 +1,1 @@
+let victims = document.querySelectorAll();
