@@ -95,6 +95,11 @@
 
 /* Basic */
 
+.dev-icon {
+	width: 50%;
+	height: 50%;
+	border: 1px solid red;
+}
 	// Set box model to border-box.
 	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
@@ -1188,6 +1193,7 @@
 			}
 
 	}
-	.dark-mode {
-		
-	}
+
+// .dark-mode {
+	
+// }
