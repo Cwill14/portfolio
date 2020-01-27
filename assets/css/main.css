@@ -1915,11 +1915,24 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		/* border: 1px solid blue; */
+		margin: auto;
+
 	}
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			/* height: 15rem;
+			width: 15rem; */
+			height: 75%;
+			width: 75%;
+			/* border: 1px solid red; */
+
 		}
+			.box.style1 svg {
+				height: 75%;
+				width: 75%;
+			}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
@@ -2270,9 +2283,9 @@ input, select, textarea {
 
 		/* Section/Article */
 
-			section, article {
+			/* section, article {
 				clear: both;
-			}
+			} */
 
 		/* Button */
 
@@ -2333,7 +2346,7 @@ input, select, textarea {
 
 			.box {
 				padding: 30px 20px 30px 20px;
-				margin: 0 0 20px 0 !important;
+				/* margin: 0 0 20px 0 !important; */
 			}
 
 				.box h3 {
@@ -2353,12 +2366,18 @@ input, select, textarea {
 				}
 
 				.box.style1 {
-					height: 15rem;
-					width: 15rem;
+					/* height: 15rem;
+					width: 15rem; */
 					max-width: 32em;
+					height: 75%;
+					width: 75%;
 					/* margin-left: auto !important;
 					margin-right: auto !important; */
 				}
+					.box.style1 svg {
+						height: 75%;
+						width: 75%;
+					}
 
 				.box.style2 {
 					max-width: 32em;
